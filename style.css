@@ -65,6 +65,40 @@ nav a{
     width: 100%;
     margin-top: 20px;
 }
+/* main part start */
+/* first part start */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.features-part-1{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+.img-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-left: 100px;
+}
+.description-part{
+    margin-left: 50px;
+}
+.description-title{
+    font-size: 45px;
+}
+.text-style-1{
+    color: #727272;
+    font-weight: 500;
+}
+.text-style-3{
+    color: #FF900E;
+    font-weight: 700;
+}
+.description-part p{
+    color: #727272;
+}
 
 /* responsive media query */
 

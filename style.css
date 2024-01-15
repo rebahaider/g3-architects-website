@@ -69,18 +69,17 @@ nav a{
 /* first part start */
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 .features-part-1{
     display: flex;
-    margin-top: 50px;
     align-items: center;
 }
 .img-section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 .description-part{
     margin-left: 50px;
@@ -100,6 +99,42 @@ main{
     color: #727272;
 }
 
+/* Second part start */
+.features-part-2{
+    display: flex;
+}
+/* Third part star */
+.features-part-3{
+    margin-left: 100px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+.features-part-4 h1, p{ 
+    text-align: center;
+}
+.features-part-4{
+    margin-top: 100px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px;
+}
+.footer{
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(255, 144, 14, 0.10);
+}
+
+
+
+
+
 /* responsive media query */
 
 /* for mobile devices */
@@ -107,7 +142,7 @@ main{
     header{
         padding:50px;
     }    
-    nav{
+    nav, .features-part-1{
         flex-direction: column;
     }
     nav ul{
@@ -119,6 +154,10 @@ main{
     nav h3{
         text-align: center;
     }
+    .img-section{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
 }
 
 /* for tablet devices */
@@ -126,7 +165,14 @@ main{
     header{
         padding: 50px;
     }
-    nav{
+    nav, .features-part-1{
         flex-direction: column;
+    }
+    .description-part{
+        order: 1;
+        margin-bottom: 50px;
+    }
+    .img-section{
+        order: 2;
     }
 }

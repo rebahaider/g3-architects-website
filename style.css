@@ -1,0 +1,49 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Inter:wght@500;700&family=Merriweather:wght@400;700&family=Work+Sans:wght@400;600;700;800&display=swap');
+
+*{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* heading style start */
+header{
+    background: rgba(255, 144, 14, 0.10);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 220px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav h3{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: #424242;
+    font-size: 18px;
+}
+/* banner style start */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-content h1{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-content p{
+    color: #727272;
+}
